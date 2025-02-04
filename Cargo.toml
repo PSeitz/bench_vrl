@@ -1,0 +1,17 @@
+[package]
+name = "bench_vrl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde_json = "1.0.138"
+vrl = "0.21.0"
+
+[dev-dependencies]
+binggan = "0.14.2"
+
+[[bench]]
+name = "bench"
+path = "bench/bench.rs"
+harness = false
+
