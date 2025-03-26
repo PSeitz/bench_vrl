@@ -15,3 +15,8 @@ name = "bench"
 path = "bench/bench.rs"
 harness = false
 
+#[[bench]]
+#name = "bench_tags"
+#path = "bench/bench_tags.rs"
+#harness = false
+
